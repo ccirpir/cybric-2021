@@ -35,7 +35,7 @@ while True:
             print(resp.content)
     
 ```
-![[ad-network-flag.png]]
+![ad-network-flag.png](images/ad-network-flag.png)
 
 ## After The Challenge
 I saw a write-up  which had a simpler python solution. It turns out that you can change the max amount of redirects that the request library will follow before throwing an error which would have simplified the above code.
